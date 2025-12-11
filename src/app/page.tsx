@@ -32,7 +32,7 @@ export default function HomePage() {
               <span className="text-primary">Connect.</span>
             </h1>
 
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-center text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Join thousands of creators and providers on the platform that combines live streaming entertainment, instant local delivery, and community services in one powerful app.
             </p>
 
@@ -121,7 +121,7 @@ export default function HomePage() {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
               Everything You Need in One App
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-center text-muted-foreground max-w-2xl mx-auto">
               Instantly brings together entertainment, convenience, and opportunity in a seamless experience.
             </p>
           </div>
@@ -203,7 +203,7 @@ export default function HomePage() {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
               How Instantly Works
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-center text-muted-foreground max-w-2xl mx-auto">
               Getting started is easy. Download, discover, and connect with your community in minutes.
             </p>
           </div>
@@ -261,7 +261,7 @@ export default function HomePage() {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
               Why Choose Instantly?
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-center text-muted-foreground max-w-2xl mx-auto">
               We're more than just an app—we're a community-driven platform built for creators, customers, and providers.
             </p>
           </div>
@@ -343,7 +343,7 @@ export default function HomePage() {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
               What Our Community Says
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-center text-muted-foreground max-w-2xl mx-auto">
               Real stories from real users who've transformed their experience with Instantly.
             </p>
           </div>
@@ -440,7 +440,7 @@ export default function HomePage() {
                   Earn Money as an Instantly Provider
                 </h2>
 
-                <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+                <p className="text-xl text-center text-muted-foreground max-w-2xl mx-auto">
                   Join our growing network of service providers and start earning on your own schedule. Whether you offer delivery services, live streaming, or professional skills, Instantly connects you with customers who need your expertise.
                 </p>
 
@@ -477,7 +477,7 @@ export default function HomePage() {
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Ready to Get Started?
           </h2>
-          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
             Download the Instantly app today and experience the future of live streaming, delivery, and community services.
           </p>
 

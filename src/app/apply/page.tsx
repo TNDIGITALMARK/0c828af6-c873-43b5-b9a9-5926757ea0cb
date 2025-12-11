@@ -77,7 +77,7 @@ Submitted: ${new Date().toLocaleString()}
               <CheckCircle2 className="w-10 h-10 text-primary" />
             </div>
             <h1 className="text-4xl font-bold text-foreground">Application Submitted!</h1>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-center text-muted-foreground">
               Thank you for your interest in becoming an Instantly Provider. We'll review your application and get back to you soon.
             </p>
             <Button
@@ -104,7 +104,7 @@ Submitted: ${new Date().toLocaleString()}
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
               Apply to Become a Provider
             </h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-center text-muted-foreground max-w-2xl mx-auto">
               Join our growing network of service providers and start earning money on your own schedule. Fill out the form below to get started.
             </p>
           </div>

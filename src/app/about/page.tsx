@@ -16,7 +16,7 @@ export default function AboutPage() {
             Empowering Communities Through{" "}
             <span className="text-primary">Innovation</span>
           </h1>
-          <p className="text-xl md:text-2xl text-muted-foreground">
+          <p className="text-xl md:text-2xl text-center text-muted-foreground">
             Instantly is revolutionizing how people connect, earn, and access services in their local communities.
           </p>
         </div>
@@ -70,7 +70,7 @@ export default function AboutPage() {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
               Our Mission & Values
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-center text-muted-foreground max-w-2xl mx-auto">
               We're driven by a commitment to empower communities and create economic opportunities for everyone.
             </p>
           </div>
@@ -126,10 +126,10 @@ export default function AboutPage() {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
               Building the Future Together
             </h2>
-            <p className="text-xl text-muted-foreground leading-relaxed">
+            <p className="text-xl text-center text-muted-foreground leading-relaxed">
               Our vision is to create a world where anyone can turn their passion into income, where communities are stronger and more connected, and where accessing essential services is as easy as a tap on your phone.
             </p>
-            <p className="text-xl text-muted-foreground leading-relaxed">
+            <p className="text-xl text-center text-muted-foreground leading-relaxed">
               We're just getting started. Join us on this journey to transform how communities interact, transact, and thrive together.
             </p>
           </div>
@@ -143,7 +143,7 @@ export default function AboutPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
               Ready to Join the Movement?
             </h2>
-            <p className="text-lg text-muted-foreground mb-8">
+            <p className="text-lg text-center text-muted-foreground mb-8">
               Whether you're looking to discover amazing content, order local services, or become a provider yourself, Instantly has a place for you.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
