@@ -443,10 +443,59 @@ input:focus, textarea:focus, select:focus {
 
 /* Ensure child elements inherit parent's text alignment */
 .text-center > * {
-  text-align: center;
+  text-align: center !important;
 }
 
 /* Specific fix for paragraph tags with text-center class */
 p.text-center {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Fix for flex containers - ensure centered text isn't pushed left by flex */
+.flex .text-center,
+.flex > .text-center {
+  text-align: center !important;
+  align-self: center;
+}
+
+/* Fix for grid containers */
+.grid .text-center,
+.grid > .text-center {
+  text-align: center !important;
+  justify-self: center;
+}
+
+/* Ensure space-y containers don't affect text centering */
+.space-y-1 > .text-center,
+.space-y-2 > .text-center,
+.space-y-3 > .text-center,
+.space-y-4 > .text-center,
+.space-y-5 > .text-center,
+.space-y-6 > .text-center,
+.space-y-8 > .text-center {
+  text-align: center !important;
+}
+
+/* Fix for any div or section containing centered text */
+div.text-center,
+section.text-center {
+  text-align: center !important;
+}
+
+/* Ensure mx-auto works with text-center */
+.mx-auto.text-center {
+  text-align: center !important;
+}
+
+/* Fix for nested text within centered containers */
+.text-center p,
+.text-center h1,
+.text-center h2,
+.text-center h3,
+.text-center h4,
+.text-center h5,
+.text-center h6 {
   text-align: center !important;
 }
