@@ -18,10 +18,10 @@ export function Navigation() {
             <Image
               src="/instantly-logo.png"
               alt="Instantly Logo"
-              width={140}
-              height={48}
+              width={200}
+              height={70}
               priority
-              className="h-10 w-auto"
+              className="h-16 w-auto"
             />
           </Link>
 
