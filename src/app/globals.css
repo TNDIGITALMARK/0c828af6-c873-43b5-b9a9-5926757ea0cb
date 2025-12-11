@@ -408,3 +408,12 @@ input:focus, textarea:focus, select:focus {
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+/* WHITE TEXT UTILITY */
+.text-white {
+  color: #ffffff;
+}
+
+.text-white-important {
+  color: #ffffff !important;
+}

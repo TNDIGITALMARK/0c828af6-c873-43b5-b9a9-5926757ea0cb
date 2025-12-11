@@ -41,7 +41,7 @@ export default function HomePage() {
               <Button
                 asChild
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 shadow-red w-full sm:w-auto"
+                className="bg-primary hover:bg-primary/90 text-white font-semibold text-lg px-8 py-6 shadow-red w-full sm:w-auto"
               >
                 <a
                   href="https://play.google.com/store/apps/details?id=com.createcommunity.instantlyofficial&pli=1"
@@ -457,7 +457,7 @@ export default function HomePage() {
                   <Button
                     asChild
                     size="lg"
-                    className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 shadow-red"
+                    className="bg-primary hover:bg-primary/90 text-white font-semibold text-lg px-8 py-6 shadow-red"
                   >
                     <Link href="/apply" className="flex items-center gap-2">
                       Apply to Become a Provider
@@ -485,7 +485,7 @@ export default function HomePage() {
             <Button
               asChild
               size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 shadow-red w-full sm:w-auto"
+              className="bg-primary hover:bg-primary/90 text-white font-semibold text-lg px-8 py-6 shadow-red w-full sm:w-auto"
             >
               <a
                 href="https://play.google.com/store/apps/details?id=com.createcommunity.instantlyofficial&pli=1"

@@ -44,7 +44,7 @@ export function Navigation() {
             <Button
               asChild
               size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
+              className="bg-primary hover:bg-primary/90 text-white font-semibold"
             >
               <a
                 href="https://play.google.com/store/apps/details?id=com.createcommunity.instantlyofficial&pli=1"
@@ -92,7 +92,7 @@ export function Navigation() {
             </Link>
             <Button
               asChild
-              className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
+              className="w-full bg-primary hover:bg-primary/90 text-white font-semibold"
             >
               <a
                 href="https://play.google.com/store/apps/details?id=com.createcommunity.instantlyofficial&pli=1"

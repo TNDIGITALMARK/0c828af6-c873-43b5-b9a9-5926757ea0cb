@@ -82,7 +82,7 @@ Submitted: ${new Date().toLocaleString()}
             </p>
             <Button
               asChild
-              className="bg-primary hover:bg-primary/90 text-primary-foreground"
+              className="bg-primary hover:bg-primary/90 text-white"
             >
               <a href="/">Return to Home</a>
             </Button>
@@ -208,7 +208,7 @@ Submitted: ${new Date().toLocaleString()}
                 <Button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg py-6 shadow-red"
+                  className="w-full bg-primary hover:bg-primary/90 text-white font-semibold text-lg py-6 shadow-red"
                 >
                   {isSubmitting ? (
                     <>
