@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -7,7 +8,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand Column */}
           <div className="space-y-4">
-            <div className="text-2xl font-bold text-primary">INSTANTLY</div>
+            <Image
+              src="/instantly-logo.png"
+              alt="Instantly Logo"
+              width={140}
+              height={48}
+              className="h-10 w-auto"
+            />
             <p className="text-muted-foreground text-sm">
               Live streaming, local delivery, and community services in one powerful platform.
             </p>
