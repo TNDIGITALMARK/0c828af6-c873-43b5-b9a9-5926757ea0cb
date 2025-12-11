@@ -46,16 +46,16 @@ export default function AboutPage() {
               </h3>
               <div className="space-y-6">
                 <div className="text-center">
-                  <div className="text-5xl font-black text-primary mb-2">50,000+</div>
-                  <div className="text-muted-foreground">Active Users</div>
+                  <div className="text-5xl font-black text-primary text-center mb-2">50,000+</div>
+                  <div className="text-center text-muted-foreground">Active Users</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-5xl font-black text-primary mb-2">5,000+</div>
-                  <div className="text-muted-foreground">Verified Providers</div>
+                  <div className="text-5xl font-black text-primary text-center mb-2">5,000+</div>
+                  <div className="text-center text-muted-foreground">Verified Providers</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-5xl font-black text-primary mb-2">1M+</div>
-                  <div className="text-muted-foreground">Transactions Completed</div>
+                  <div className="text-5xl font-black text-primary text-center mb-2">1M+</div>
+                  <div className="text-center text-muted-foreground">Transactions Completed</div>
                 </div>
               </div>
             </div>
@@ -80,8 +80,8 @@ export default function AboutPage() {
               <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
                 <Users className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-3">Community First</h3>
-              <p className="text-muted-foreground text-sm">
+              <h3 className="text-xl font-bold text-foreground text-center mb-3">Community First</h3>
+              <p className="text-center text-muted-foreground text-sm">
                 We prioritize the needs and success of our community members in every decision we make.
               </p>
             </div>
@@ -90,8 +90,8 @@ export default function AboutPage() {
               <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
                 <TrendingUp className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-3">Growth & Opportunity</h3>
-              <p className="text-muted-foreground text-sm">
+              <h3 className="text-xl font-bold text-foreground text-center mb-3">Growth & Opportunity</h3>
+              <p className="text-center text-muted-foreground text-sm">
                 We create pathways for individuals to grow their skills, income, and business potential.
               </p>
             </div>
@@ -100,8 +100,8 @@ export default function AboutPage() {
               <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
                 <Award className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-3">Excellence</h3>
-              <p className="text-muted-foreground text-sm">
+              <h3 className="text-xl font-bold text-foreground text-center mb-3">Excellence</h3>
+              <p className="text-center text-muted-foreground text-sm">
                 We maintain the highest standards of quality, safety, and service in everything we deliver.
               </p>
             </div>
@@ -110,8 +110,8 @@ export default function AboutPage() {
               <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-primary/10 flex items-center justify-center">
                 <Heart className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-xl font-bold text-foreground mb-3">Authenticity</h3>
-              <p className="text-muted-foreground text-sm">
+              <h3 className="text-xl font-bold text-foreground text-center mb-3">Authenticity</h3>
+              <p className="text-center text-muted-foreground text-sm">
                 We foster genuine connections and authentic experiences between creators and communities.
               </p>
             </div>

@@ -83,32 +83,32 @@ export default function HomePage() {
               <div className="flex items-center justify-center w-16 h-16 mx-auto rounded-full bg-primary/20 mb-3">
                 <Users className="w-8 h-8 text-primary" />
               </div>
-              <p className="text-4xl md:text-5xl font-black text-primary">50K+</p>
-              <p className="text-sm md:text-base text-muted-foreground font-medium">Active Users</p>
+              <p className="text-4xl md:text-5xl font-black text-primary text-center">50K+</p>
+              <p className="text-sm md:text-base text-center text-muted-foreground font-medium">Active Users</p>
             </div>
 
             <div className="text-center space-y-2">
               <div className="flex items-center justify-center w-16 h-16 mx-auto rounded-full bg-primary/20 mb-3">
                 <Star className="w-8 h-8 text-primary" />
               </div>
-              <p className="text-4xl md:text-5xl font-black text-primary">4.8</p>
-              <p className="text-sm md:text-base text-muted-foreground font-medium">App Rating</p>
+              <p className="text-4xl md:text-5xl font-black text-primary text-center">4.8</p>
+              <p className="text-sm md:text-base text-center text-muted-foreground font-medium">App Rating</p>
             </div>
 
             <div className="text-center space-y-2">
               <div className="flex items-center justify-center w-16 h-16 mx-auto rounded-full bg-primary/20 mb-3">
                 <TrendingUp className="w-8 h-8 text-primary" />
               </div>
-              <p className="text-4xl md:text-5xl font-black text-primary">200K+</p>
-              <p className="text-sm md:text-base text-muted-foreground font-medium">Deliveries Made</p>
+              <p className="text-4xl md:text-5xl font-black text-primary text-center">200K+</p>
+              <p className="text-sm md:text-base text-center text-muted-foreground font-medium">Deliveries Made</p>
             </div>
 
             <div className="text-center space-y-2">
               <div className="flex items-center justify-center w-16 h-16 mx-auto rounded-full bg-primary/20 mb-3">
                 <Zap className="w-8 h-8 text-primary" />
               </div>
-              <p className="text-4xl md:text-5xl font-black text-primary">24/7</p>
-              <p className="text-sm md:text-base text-muted-foreground font-medium">Always Available</p>
+              <p className="text-4xl md:text-5xl font-black text-primary text-center">24/7</p>
+              <p className="text-sm md:text-base text-center text-muted-foreground font-medium">Always Available</p>
             </div>
           </div>
         </div>
@@ -214,11 +214,11 @@ export default function HomePage() {
               <div className="relative mx-auto w-32 h-32 mb-6">
                 <div className="absolute inset-0 bg-primary/20 rounded-full animate-pulse" />
                 <div className="relative flex items-center justify-center w-full h-full bg-card border-4 border-primary rounded-full shadow-red">
-                  <span className="text-5xl font-black text-primary">1</span>
+                  <span className="text-5xl font-black text-primary text-center">1</span>
                 </div>
               </div>
-              <h3 className="text-2xl font-bold text-foreground">Download the App</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-2xl font-bold text-foreground text-center">Download the App</h3>
+              <p className="text-center text-muted-foreground">
                 Get Instantly for free on iOS or Android. Sign up in seconds and create your profile.
               </p>
             </div>
@@ -228,11 +228,11 @@ export default function HomePage() {
               <div className="relative mx-auto w-32 h-32 mb-6">
                 <div className="absolute inset-0 bg-primary/20 rounded-full animate-pulse" style={{ animationDelay: '0.2s' }} />
                 <div className="relative flex items-center justify-center w-full h-full bg-card border-4 border-primary rounded-full shadow-red">
-                  <span className="text-5xl font-black text-primary">2</span>
+                  <span className="text-5xl font-black text-primary text-center">2</span>
                 </div>
               </div>
-              <h3 className="text-2xl font-bold text-foreground">Explore & Discover</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-2xl font-bold text-foreground text-center">Explore & Discover</h3>
+              <p className="text-center text-muted-foreground">
                 Browse live streams, local services, and delivery options tailored to your location and interests.
               </p>
             </div>
@@ -242,11 +242,11 @@ export default function HomePage() {
               <div className="relative mx-auto w-32 h-32 mb-6">
                 <div className="absolute inset-0 bg-primary/20 rounded-full animate-pulse" style={{ animationDelay: '0.4s' }} />
                 <div className="relative flex items-center justify-center w-full h-full bg-card border-4 border-primary rounded-full shadow-red">
-                  <span className="text-5xl font-black text-primary">3</span>
+                  <span className="text-5xl font-black text-primary text-center">3</span>
                 </div>
               </div>
-              <h3 className="text-2xl font-bold text-foreground">Connect & Enjoy</h3>
-              <p className="text-muted-foreground">
+              <h3 className="text-2xl font-bold text-foreground text-center">Connect & Enjoy</h3>
+              <p className="text-center text-muted-foreground">
                 Engage with creators, order what you need, and become part of a thriving local community.
               </p>
             </div>
@@ -444,9 +444,9 @@ export default function HomePage() {
                   Join our growing network of service providers and start earning on your own schedule. Whether you offer delivery services, live streaming, or professional skills, Instantly connects you with customers who need your expertise.
                 </p>
 
-                <div className="bg-secondary/50 border border-border rounded-lg p-6 max-w-md mx-auto">
-                  <p className="text-sm text-muted-foreground mb-2">Average Monthly Earnings</p>
-                  <p className="text-4xl font-bold text-primary">$2,847</p>
+                <div className="bg-secondary/50 border border-border rounded-lg p-6 max-w-md mx-auto text-center">
+                  <p className="text-sm text-center text-muted-foreground mb-2">Average Monthly Earnings</p>
+                  <p className="text-4xl font-bold text-primary text-center">$2,847</p>
                 </div>
 
                 <blockquote className="italic text-muted-foreground border-l-4 border-primary pl-6 py-4 max-w-2xl mx-auto">

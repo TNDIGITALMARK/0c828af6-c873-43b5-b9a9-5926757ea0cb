@@ -417,3 +417,36 @@ input:focus, textarea:focus, select:focus {
 .text-white-important {
   color: #ffffff !important;
 }
+
+/* ==============================================
+   TEXT ALIGNMENT FIX - CRITICAL
+   Explicit utilities to ensure alignment works properly
+   Fixes subtitle centering issues across all pages
+   ============================================== */
+
+/* Override any conflicting alignment rules with !important */
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+/* Ensure child elements inherit parent's text alignment */
+.text-center > * {
+  text-align: center;
+}
+
+/* Specific fix for paragraph tags with text-center class */
+p.text-center {
+  text-align: center !important;
+}
